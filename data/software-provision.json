@@ -1,0 +1,2937 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.bps.go.id/gov/software-provision", "http://www.bps.go.id/gov/software-provision.owl" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.bps.go.id/gov/software-provision.owl",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+	"title" : {
+      "undefined" : "Penyediaan Software Pemerintahan Indonesia"
+    },
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "version" : "0.0.1",
+    "labels" : {
+      "undefined" : "Penyediaan Software Pemerintahan Indonesia"
+    },
+    "comments" : {
+      "undefined" : "Skema ontology berkaitan dengan proses penyediaan software di instansi pemerintahan."
+    },
+	"author" : ["Muhammad Farid Fadhlan"],
+	"description" : {
+      "undefined" : "Skema ontology berkaitan dengan proses penyediaan software di instansi pemerintahan."
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.bps.go.id/gov/software-provision#KAKDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KAKDocument",
+      "undefined" : "KAKDocument"
+    },
+    "comment" : {
+      "undefined" : "dokumen perencanaan kegiatan yang berisi penjelasan/keterangan mengenai apa, mengapa, siapa, kapan, di mana, bagaimana, dan berapa perkiraan biayanya suatu kegiatan"
+    },
+    
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Computer",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Computer",
+      "undefined" : "Computer"
+    },
+    "subClasses" : [ "2" ],
+    "comment" : {
+      "undefined" : "Sekelompok alat elektronik yang terdiri atas perintah input, alat yang mengolah input, dan peralatan output yang memberikan informasi serta bekerja secara otomatis"
+    },
+    
+    "id" : "5"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ServicesProcurement",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ServicesProcurement",
+      "undefined" : "ServicesProcurement"
+    },
+    "comment" : {
+      "undefined" : "Proses pengadaan jasa di pemerintahan"
+    },
+    
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#TechinaclSpecificationDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechinaclSpecificationDocument",
+      "undefined" : "TechinaclSpecificationDocument"
+    },
+    "comment" : {
+      "undefined" : "dokumen tentang uraian secara terperinci tentang persyaratan atau kriteria-kriteria atas barang dan jasa yang diperlukan untuk suatu pekerjaan"
+    },
+    
+    "id" : "29",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Person",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "undefined" : "Person"
+    },
+    "subClasses" : [ "33" ],
+    "comment" : {
+      "undefined" : "Manusia"
+    },
+    
+    "id" : "32"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#LegalDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LegalDocument",
+      "undefined" : "LegalDocument"
+    },
+    "comment" : {
+      "undefined" : "sumber tertulis mengenai keterangan penting atas sebuah informasi"
+    },
+    
+    "id" : "36",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ProgrammingFramework",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProgrammingFramework",
+      "undefined" : "ProgrammingFramework"
+    },
+    "comment" : {
+      "undefined" : "Kerangka kerja dalam pemrograman komputer di mana sudah disediakan standar dalam menuliskan maupun meletakkan kode program (Contoh: Laravel pada pemrograman web PHP, ReactJS pada pemrograman Javascript, dll)"
+    },
+    
+    "id" : "40"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#GoodsAndServicesProcurement",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GoodsAndServicesProcurement",
+      "undefined" : "GoodsAndServicesProcurement"
+    },
+    "subClasses" : [ "42", "15" ],
+    "comment" : {
+      "undefined" : "Proses pengadaan barang dan jasa di peemrintahan"
+    },
+    
+    "id" : "16",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ManualBookDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ManualBookDocument",
+      "undefined" : "ManualBookDocument"
+    },
+    "comment" : {
+      "undefined" : "Buku/dokumen yang berisi panduan dalam penggunaan produk tertentu"
+    },
+    
+    "id" : "45",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#CentralGovernment",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CentralGovernment",
+      "undefined" : "CentralGovernment"
+    },
+    "comment" : {
+      "undefined" : "Pelaksana kegiatan pemerintahan tingkat nasional"
+    },
+    
+    "id" : "47",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#BASTDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BASTDocument",
+      "undefined" : "BASTDocument"
+    },
+    "comment" : {
+      "undefined" : "dokumen legalitas penyerahan hasil pekerjaan dari penyedia barang/jasa kepada pemberi kerja"
+    },
+    
+    "id" : "53",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#WebApplication",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WebApplication",
+      "undefined" : "WebApplication"
+    },
+    "comment" : {
+      "undefined" : "Aplikasi yang dapat digunakan melalui web browser dan biasanya memerlukan akses ke komputer server sebgai penyedia layanannya"
+    },
+    
+    "id" : "1",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#SoftwareLibrary",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareLibrary",
+      "undefined" : "SoftwareLibrary"
+    },
+    "comment" : {
+      "undefined" : "Pustaka perangkat lunak yang berisi fungsi-fungsi tertentu dan dapat digunakan kembali pada proses pengembangan softwara tanpa membangunnya dari awal (Contoh: library jQuery pada pemrograman javascript)"
+    },
+    
+    "id" : "8"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Government",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Government",
+      "undefined" : "Government"
+    },
+    "subClasses" : [ "47", "61", "62" ],
+    "comment" : {
+      "undefined" : "Pelaksana kegiatan pemerintahan"
+    },
+    
+    "id" : "38"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#TISupportUnit",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TISupportUnit",
+      "undefined" : "TISupportUnit"
+    },
+    "comment" : {
+      "undefined" : "Unit kerja yang bertugas menangani kebutuhan TI pada sebuah organisasi (Contoh: Direktorat SIS pada BPS, Dinas Kominfo Provinsi pada Pemerintahan Provinsi)"
+    },
+    
+    "id" : "65",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Ministry",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ministry",
+      "undefined" : "Ministry"
+    },
+    "comment" : {
+      "undefined" : "Kementerian/Lembaga/Instansi di bawah presiden"
+    },
+    
+    "id" : "66",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Company",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Company",
+      "undefined" : "Company"
+    },
+    "subClasses" : [ "70" ],
+    "comment" : {
+      "undefined" : "Organisasi yang menyelenggarakan kegiatan secara teratur dan berorientasi keuntungan"
+    },
+    
+    "id" : "69"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#GoodsProcurement",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GoodsProcurement",
+      "undefined" : "GoodsProcurement"
+    },
+    "comment" : {
+      "undefined" : "Proses pengadaan barang di pemerintahan"
+    },
+    
+    "id" : "42",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#WorkUnit",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkUnit",
+      "undefined" : "WorkUnit"
+    },
+    "subClasses" : [ "79", "65" ],
+    "comment" : {
+      "undefined" : "Unit kerja dengan tugas dan fungsi tertentu pada sebuah lembaga"
+    },
+    
+    "id" : "52"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#InternalSoftwareProcurement",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InternalSoftwareProcurement",
+      "undefined" : "InternalSoftwareProcurement"
+    },
+    "comment" : {
+      "undefined" : "Proses pengembangan software menggunakan pegawai/karyawan sendiri"
+    },
+    
+    "id" : "35",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#DesktopApplication",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DesktopApplication",
+      "undefined" : "DesktopApplication"
+    },
+    "comment" : {
+      "undefined" : "Aplikasi yang dapat beroperasi secara offline dan harus diinstal pada laptop/komputer"
+    },
+    
+    "id" : "86",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#GovernmentEmployee",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GovernmentEmployee",
+      "undefined" : "GovernmentEmployee"
+    },
+    "comment" : {
+      "undefined" : "Pegawai negeri sipil/pegawai pemerintah"
+    },
+    
+    "id" : "25",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Software",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Software",
+      "undefined" : "Software"
+    },
+    "subClasses" : [ "1", "86", "90" ],
+    "comment" : {
+      "undefined" : "Artefak tidak berwujud yang bisa bekerja dalam sebuah sistem komputer"
+    },
+    
+    "id" : "7"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#SoftwareProviderCompany",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareProviderCompany",
+      "undefined" : "SoftwareProviderCompany"
+    },
+    "comment" : {
+      "undefined" : "Perusahaan yang melayani penyediaan software"
+    },
+    
+    "id" : "70",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#RegencyGovernment",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RegencyGovernment",
+      "undefined" : "RegencyGovernment"
+    },
+    "comment" : {
+      "undefined" : "Pemerintahan tingkat kabupaten/kota"
+    },
+    
+    "id" : "61",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#EntityRelationalDatabaseDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EntityRelationalDatabaseDocument",
+      "undefined" : "EntityRelationalDatabaseDocument"
+    },
+    "comment" : {
+      "undefined" : "Dokumen yang berisi informasi dari struktur dan relasi tabel penyimpanan data yang digunakan oleh sebuah software"
+    },
+    
+    "id" : "103",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#SPBEApplication",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SPBEApplication",
+      "undefined" : "SPBEApplication"
+    },
+    "subClasses" : [ "106", "107" ],
+    "comment" : {
+      "undefined" : "penyelenggaraan pemerintahan yang memanfaatkan teknologi informasi dan komunikasi untuk memberikan layanan kepada Pengguna SPBE"
+    },
+    
+    "id" : "31"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Procurement",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Procurement",
+      "undefined" : "Procurement"
+    },
+    "subClasses" : [ "16", "108", "35" ],
+    "comment" : {
+      "undefined" : "Proses pengadaan barang dan jasa"
+    },
+    
+    "id" : "41"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ProcurementDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProcurementDocument",
+      "undefined" : "ProcurementDocument"
+    },
+    "subClasses" : [ "29", "53", "3" ],
+    "comment" : {
+      "undefined" : "dokumen yang ditetapkan oleh ULP/Pejabat Pengadaan yang memuat informasi dan ketentuan yang harus ditaati oleh para pihak dalam proses Pengadaan Barang/Jasa"
+    },
+    
+    "id" : "4",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Document",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Document",
+      "undefined" : "Document"
+    },
+    "subClasses" : [ "46", "4", "36" ],
+    "comment" : {
+      "undefined" : "surat penting atau berharga yang sifatnya tertulis atau tercetak yang berfungsi atau dapat dipakai sebagai bukti ataupun keterangan"
+    },
+    
+    "id" : "22"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#QuestionnaireDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QuestionnaireDocument",
+      "undefined" : "QuestionnaireDocument"
+    },
+    "comment" : {
+      "undefined" : "Dokumen kuesioner berisi pertanyaan yang ditanyakan kepada responden pada sebuah sensus/survei"
+    },
+    
+    "id" : "138",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#FlowChartDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlowChartDocument",
+      "undefined" : "FlowChartDocument"
+    },
+    "comment" : {
+      "undefined" : "Dokumen yang berisi diagram proses bisnis aktivitas tertentu"
+    },
+    
+    "id" : "139",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ProvincialGovernment",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProvincialGovernment",
+      "undefined" : "ProvincialGovernment"
+    },
+    "comment" : {
+      "undefined" : "Pemerintahan tingkat provinsi"
+    },
+    
+    "id" : "62",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ProcurementUnit",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProcurementUnit",
+      "undefined" : "ProcurementUnit"
+    },
+    "comment" : {
+      "undefined" : "Unit kerja yang menangani proses pengadaan barang dan jasa (Contoh: Unit LPSE)"
+    },
+    
+    "id" : "79",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Programmer",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Programmer",
+      "undefined" : "Programmer"
+    },
+    "comment" : {
+      "undefined" : "Orang yang membuat kode sumber dalam proses pengembangan software"
+    },
+    
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#RegencyAgency",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RegencyAgency",
+      "undefined" : "RegencyAgency"
+    },
+    "comment" : {
+      "undefined" : "Dinas/instansi tingkat kabupaten/kota"
+    },
+    
+    "id" : "146",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#Employee",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Employee",
+      "undefined" : "Employee"
+    },
+    "subClasses" : [ "25" ],
+    "comment" : {
+      "undefined" : "Orang yang bekerja kepada suatu perusahaan dan memperoleh balas jasa yang sesuai dengan perjanjian"
+    },
+    
+    "id" : "33",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "149",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "26", "69", "32" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "12",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#SPBEGeneralApplication",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SPBEGeneralApplication",
+      "undefined" : "SPBEGeneralApplication"
+    },
+    "comment" : {
+      "undefined" : "Aplikasi pendukung kegiatan pemerintahan yang sifatnya bisa dipakai untuk lintas kementerian/instansi karena fungsinya yang umum. Contoh: Sistem surat menyurat, sistem pengelolaan anggaran"
+    },
+    
+    "id" : "106",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "156",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#SoftwareDevelopment",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareDevelopment",
+      "undefined" : "SoftwareDevelopment"
+    },
+    "comment" : {
+      "undefined" : "Proses pengembangan perangkat lunak menggunakan metode yang sistematis sehingga menjadi produk yang berkualitas"
+    },
+    
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "154",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#GovernmentAgency",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GovernmentAgency",
+      "undefined" : "GovernmentAgency"
+    },
+    "subClasses" : [ "146", "66", "159" ],
+    "comment" : {
+      "undefined" : "Lembaga pemerintahan di bawah presidan atau kepala daerah yang memiliki tugas dan fungsi tertentu"
+    },
+    
+    "id" : "26"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ProgrammingLanguage",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProgrammingLanguage",
+      "undefined" : "ProgrammingLanguage"
+    },
+    "comment" : {
+      "undefined" : "Bahasa standar berupa perintah dan pemrosesan dalam pemrograman untuk melakukan komputasi"
+    },
+    
+    "id" : "88"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#SoftwareProcurement",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareProcurement",
+      "undefined" : "SoftwareProcurement"
+    },
+    "comment" : {
+      "undefined" : "Pengadaan perangkat lunak baik berupa produk jadi atau jasa konsultansi"
+    },
+    
+    "id" : "108",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#FunctionalRequirementDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FunctionalRequirementDocument",
+      "undefined" : "FunctionalRequirementDocument"
+    },
+    "comment" : {
+      "undefined" : "Dokumen yang berisi kebutuhan fungsional sistem yang harus ada sebagai panduan dalam mengembangkan software"
+    },
+    
+    "id" : "167",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#MobileApplication",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MobileApplication",
+      "undefined" : "MobileApplication"
+    },
+    "comment" : {
+      "undefined" : "Aplikasi yang dioperasikan menggunakan smartphone (Android/IOS)"
+    },
+    
+    "id" : "90",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#SoftwareDevelopmentDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareDevelopmentDocument",
+      "undefined" : "SoftwareDevelopmentDocument"
+    },
+    "subClasses" : [ "169", "167", "103", "139", "138", "45" ],
+    "comment" : {
+      "undefined" : "Dokumen yang terkait dalam pengembangan software dari tahap perencanaan hingga implementasi"
+    },
+    
+    "id" : "46",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#SPBESpecificService",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SPBESpecificService",
+      "undefined" : "SPBESpecificService"
+    },
+    "comment" : {
+      "undefined" : "Aplikasi pendukung kegiatan pemerintahan yang sifatnya spesifik untuk kebutuhan instansi tertentu dan unit tertentu"
+    },
+    
+    "id" : "107",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ComputerServer",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComputerServer",
+      "undefined" : "ComputerServer"
+    },
+    "comment" : {
+      "undefined" : "Perangkat komputer utama yang mengelola jaringan komputer, baik secara offline maupun online"
+    },
+    
+    "id" : "2",
+    "superClasses" : [ "5" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "26", "69", "32" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "191"
+  }, {
+    "instances" : 0,
+    "union" : [ "26", "69", "32" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#SoftwareSecurityTesting",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareSecurityTesting",
+      "undefined" : "SoftwareSecurityTesting"
+    },
+    "comment" : {
+      "undefined" : "Uji coba aplikasi untuk menemukan kerentanan dari berbagai serangan yang mengakibatkan kesalahan/kebocoran sistem"
+    },
+    "id" : "55"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "161",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "148",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#UseCaseDocument",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UseCaseDocument",
+      "undefined" : "UseCaseDocument"
+    },
+    "comment" : {
+      "undefined" : "Dokumen rancangan dalam pengembangan software yang terkait dengan fungsi yang dapat dilakukan oleh berbagai jenis pengguna"
+    },
+    
+    "id" : "169",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#ProvincialAgency",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProvincialAgency",
+      "undefined" : "ProvincialAgency"
+    },
+    "comment" : {
+      "undefined" : "Dinas/instansi tingkat provinsi"
+    },
+    
+    "id" : "159",
+    "superClasses" : [ "26" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "184",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "186",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#hosted_on",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hosted_on",
+      "undefined" : "hosted_on"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Tempat instalasi atau pemasangan aplikasi web server"
+    },
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#use_library",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "use_library",
+      "undefined" : "use_library"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Pusataka atau library yang digunakan dalam sebuah software"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#min_ram",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "min_ram",
+      "undefined" : "min_ram"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Minimum RAM yang dibutuhkan perangkat dalam menjalankan sebuah aplikasi"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "12",
+    "subproperty" : [ "13", "14" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#mac_address",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "mac_address",
+      "undefined" : "mac_address"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Informasi MAC Address pada perangkat komputer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#developed_trough",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "developed_trough",
+      "undefined" : "developed_trough"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "software dikembangkan melalui sebuah proses pengembangan software"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#document_created_by",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "document_created_by",
+      "undefined" : "document_created_by"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Informasi orang yang membuat dokumen"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#head_of_agency",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "head_of_agency",
+      "undefined" : "head_of_agency"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Seorang pegawai mengepalai kementerian/lembaga/dinas"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#created_by",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "created_by",
+      "undefined" : "created_by"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Informasi pembuat knowledge dalam setiap instance"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#composed_by",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "composed_by",
+      "undefined" : "composed_by"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Layanan SPBE tersusu dari berbagai software"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#use_internal_development",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "use_internal_development",
+      "undefined" : "use_internal_development"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Pengadaan software secara mandiri (menggunakan sumber daya manusia internal organisasi)"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#government_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "government_name",
+      "undefined" : "government_name"
+    },
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "Nama pemerintahan. Contoh: Pemerintahaan Provinsi DKI Jakarta; Pemerintahan Kabupaten Bogor"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#software_library_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "software_library_name",
+      "undefined" : "software_library_name"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Nama pustaka software"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#number_of_cpus",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "number_of_cpus",
+      "undefined" : "number_of_cpus"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Jumlah CPU yang ada dalam sebuah sistem komputer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#use_development_document",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "use_development_document",
+      "undefined" : "use_development_document"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Proses pengembangan software membutuhkan dokumen rancangan (use case, functional requirement, ERD, dll)"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#head_of_unit",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "head_of_unit",
+      "undefined" : "head_of_unit"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Seorang pegawai mengepalai unit kerja tertentu"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#security_testing_description",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "security_testing_description",
+      "undefined" : "security_testing_description"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Penjelasan atau deskripsi uji keamanan sistem"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#document_updated_at",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "document_updated_at",
+      "undefined" : "document_updated_at"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Tanggal perubahan dokumen"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#agency_description",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "agency_description",
+      "undefined" : "agency_description"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Penjelasan umum tentang kementerian/lembaga/dinas beserta tugas dan fungsi utamanya"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#need_software",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "need_software",
+      "undefined" : "need_software"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Layanan SPBE membutuhkan software untu mendukung fungsinya"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#use_security_testing",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "use_security_testing",
+      "undefined" : "use_security_testing"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Uji keamanan yang diterapkan pada sebuah software"
+    },
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#has_agency",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "has_agency",
+      "undefined" : "has_agency"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "Pemerintah memiliki agensi pembantu. Pemerintah pusat memliki kemeterian/lmeba/badan. Pemerintah provinsi dan kabupaten/kota memiliki dinas/unit"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#developed_by",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "developed_by",
+      "undefined" : "developed_by"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Sebuah software dikembangkan oleh programmer"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#email",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "email",
+      "undefined" : "email"
+    },
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "alamat email"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#has_unit",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "has_unit",
+      "undefined" : "has_unit"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Sebuah agensi (kementerina/lembaga/badan/dinas) memiliki beberapa unit kerja"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#experience_from",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "experience_from",
+      "undefined" : "experience_from"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "Tahun mulai berpengalaman dalam pekerjaan tertentu"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#procurement_method",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "procurement_method",
+      "undefined" : "procurement_method"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "Metode pengadaan dalam pengadaan barang dan jasa di lingkungan pemerintah"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#document_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "document_name",
+      "undefined" : "document_name"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Nama dokumen"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#cpu",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "cpu",
+      "undefined" : "cpu"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Informasi Central Processing Unit (CPU) pada sebuah sistem komputer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#spbe_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "spbe_name",
+      "undefined" : "spbe_name"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Nama layanan SPBE"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#programming_language_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "programming_language_name",
+      "undefined" : "programming_language_name"
+    },
+    "domain" : "88",
+    "comment" : {
+      "undefined" : "Nama bahasa pemrograman"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#work_unit_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "work_unit_name",
+      "undefined" : "worku_unit_name"
+    },
+    "domain" : "52",
+    "comment" : {
+      "undefined" : "Nama unit kerja pada organisasi"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#procure",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "procure",
+      "undefined" : "procure"
+    },
+    "domain" : "79",
+    "comment" : {
+      "undefined" : "Unit Layanan Pengadaan melakukan proses pengadaan brang dan jasa"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#software_development_method",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "software_development_method",
+      "undefined" : "software_development_method"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Metode yang diterapkan dalam pengembangan aplikasi"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#procurement_end_date",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "procurement_end_date",
+      "undefined" : "procurement_end_date"
+    },
+    "domain" : "41",
+    "comment" : {
+      "undefined" : "Tanggal berakhirnya rangkaian proses pengadaan barang dan jasa"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#province_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "province_name",
+      "undefined" : "province_name"
+    },
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "Nama provinsi"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#work_in",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "work_in",
+      "undefined" : "work_in"
+    },
+    "domain" : "33",
+    "comment" : {
+      "undefined" : "Unit kerja tempat pegawai bekerja"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#modified_at",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "modified_at",
+      "undefined" : "modified_at"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Informasi waktu perubahan knowledge"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#software_library_description",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "software_library_description",
+      "undefined" : "software_library_description"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Deskripsi atau penjelasan pustaka perangkat lunak"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#agency_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "agency_name",
+      "undefined" : "agency_name"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Nama lengkap kementerian/lembaga/dinas"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#regency_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "regency_name",
+      "undefined" : "regency_name"
+    },
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "Nama kabupaten/kota"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#work_as_programmer",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "work_as_programmer",
+      "undefined" : "work_as_programmer"
+    },
+    "domain" : "33",
+    "comment" : {
+      "undefined" : "Peran pegawai sebagai programmer/software developer"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#programming_language_description",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "programming_language_description",
+      "undefined" : "programming_language_description"
+    },
+    "domain" : "88",
+    "comment" : {
+      "undefined" : "Penjelasan singkat mengenai bahasa pemrograman komputer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#security_testing_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "security_testing_name",
+      "undefined" : "security_testing_name"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Nama uji keamanan sistem"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#agency_type",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "agency_type",
+      "undefined" : "agency_type"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Tipe kementerian/lembaga/dinas. Kementerina/Badan/Lembaga untuk pemerintah pusat, dinas/unit untuk pemerintah daerah"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#license",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "license",
+      "undefined" : "license"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Nama lisensi yang melekat pada software"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#project_experience",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "project_experience",
+      "undefined" : "project_experience"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "Pengalaman atau portofolio programmer tentang keterlibatannya pada project"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#document_secret_status",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "document_secret_status"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Status kerahasisaan dokumen"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#spbe_description",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "spbe_description",
+      "undefined" : "spbe_description"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Deskripsi layanan SPBE yang diterapkan pemerintah"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#address",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "address",
+      "undefined" : "address"
+    },
+    "domain" : "130",
+    "comment" : {
+      "undefined" : "Alamat tempat tinggal (untuk orang) atau alamat kantor (untuk organisasi) yang mencakup nama jalan, nomor dan info lokasi lainnya"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#operating_system",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "operating_system",
+      "undefined" : "operating_system"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Nama sistem operasi utama yang terpasang pada sebuah sistem komputer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#date_of_birth",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "date_of_birth",
+      "undefined" : "date_of_birth"
+    },
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "Tanggal kelahiran"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#full_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "137",
+    "label" : {
+      "IRI-based" : "full_name",
+      "undefined" : "full_name"
+    },
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "Nama lengkap"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#document_location",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "document_location",
+      "undefined" : "document_location"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "path/lokasi file dokumen"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#min_storage",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "min_storage",
+      "undefined" : "min_storage"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Minimum storage penyimpanan data yang dibutuhkan perangkat dalam menjalankan sebuah aplikasi"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#mastering_language",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "mastering_language",
+      "undefined" : "mastering_language"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "Penguasaan bahasa pemrograman oleh programmer"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#development_end_date",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "development_end_date",
+      "undefined" : "development_end_date"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Tanggal berakhirnya tahap pengembangan software"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#use_procurement_document",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "use_procurement_document",
+      "undefined" : "use_procurement_document"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "41",
+    "comment" : {
+      "undefined" : "Proses pengadaan membutuhkan dokumen pengadaan"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#nip",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "156",
+    "label" : {
+      "IRI-based" : "nip",
+      "undefined" : "nip"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Nomor Induk Pegawai yang dimiliki pegawai pemerintah (ASN)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#use_document",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "use_document",
+      "undefined" : "use_document"
+    },
+    "domain" : "12",
+    "subproperty" : [ "50", "155" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#source_code_repository",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "161",
+    "label" : {
+      "IRI-based" : "source_code_repository",
+      "undefined" : "source_code_repository"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "URL penyipmpanan repository kode sumber aplikasi (Github, Gitlab, dll)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#framework_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "framework_name",
+      "undefined" : "framework_name"
+    },
+    "domain" : "40",
+    "comment" : {
+      "undefined" : "Nama framework yang digunakan dalam pengembangan software. Contoh: Spring, Laravel, Express, dll"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "163"
+  }, {
+    "range" : "69",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "38",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "range" : "46",
+    "domain" : "167",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "166"
+  }, {
+    "range" : "46",
+    "domain" : "169",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "range" : "38",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#company_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "company_name",
+      "undefined" : "company_name"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Nama perusahaan sesuai dokumen resmi yang terdaftar"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "171"
+  }, {
+    "range" : "38",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "172"
+  }, {
+    "range" : "26",
+    "domain" : "159",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#implement_framework",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "implement_framework",
+      "undefined" : "implement_framework"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Implementasi framework tertentu pada sebuah software"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "33",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "176"
+  }, {
+    "range" : "26",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "26",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "22",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "22",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "range" : "16",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "32",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#regency_code",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "regency_code",
+      "undefined" : "regency_code"
+    },
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "Kode kabupaten dalam 2 digit"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#development_start_date",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "development_start_date",
+      "undefined" : "development_start_date"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Tanggal dimulainya proses pengembangan software"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#work_unit_description",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "work_unit_description",
+      "undefined" : "work_unit_description"
+    },
+    "domain" : "52",
+    "comment" : {
+      "undefined" : "Deskripsi unit kerja pada organisasi mengenai tugas dan fungsinya"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#procurement_start_date",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "151",
+    "label" : {
+      "IRI-based" : "procurement_start_date",
+      "undefined" : "procurement_start_date"
+    },
+    "domain" : "41",
+    "comment" : {
+      "undefined" : "Tanggal mulai rangkaian proses pengadaan barang dan jasa"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "186"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "range" : "4",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
+  }, {
+    "range" : "22",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#phone_number",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "phone_number",
+      "undefined" : "phone_number"
+    },
+    "domain" : "191",
+    "comment" : {
+      "undefined" : "Nomor telepon"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "190"
+  }, {
+    "range" : "4",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "5",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#province_code",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "province_code",
+      "undefined" : "province_code"
+    },
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "Kode provinsi sejumlah 2 digit"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#procurement_name",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "procurement_name",
+      "undefined" : "procurement_name"
+    },
+    "domain" : "41",
+    "comment" : {
+      "undefined" : "Nama atau judul kegiatan pengadaan barang dan jasa"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "195"
+  }, {
+    "range" : "41",
+    "domain" : "108",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "196"
+  }, {
+    "range" : "41",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "41",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "198"
+  }, {
+    "range" : "7",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "range" : "7",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "31",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "31",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "202"
+  }, {
+    "range" : "7",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "range" : "52",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "204"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision#win_procurement",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "win_procurement",
+      "undefined" : "win_procurement"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Perusahaan memenangkan lelang pengadaan barang dan jasa pemerintah"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "52",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "46",
+    "domain" : "139",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "46",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "46",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://www.bps.go.id/gov/software-provision.owl#document_description",
+    "baseIri" : "http://www.bps.go.id/gov/software-provision.owl",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "document_description",
+      "undefined" : "document_description"
+    },
+    "domain" : "22",
+    "comment" : {
+      "undefined" : "Deskripsi mengenai isi dokumen secara ringkas"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "210"
+  }, {
+    "range" : "46",
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  } ]
+}
